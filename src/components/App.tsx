@@ -2,25 +2,31 @@ import React from "react";
 
 import { Formik, Field, Form, FormikHelpers } from "formik";
 
-interface Values {
+interface Values extends User {
   firstName: string;
   lastName: string;
   email: string;
+}
+
+interface User {
+    login: string;
+    password: string;
 }
 
 const App = () => {
   return (
     <div>
       <h1>Signup</h1>
+      <br/>
+
       <Formik
         initialValues={{
-          firstName: "",
-          lastName: "",
-          email: ""
+          login: "",
+          password:""
         }}
         onSubmit={(
-          values: Values,
-          { setSubmitting }: FormikHelpers<Values>
+          values: User,
+          { setSubmitting }: FormikHelpers<User>
         ) => {
           setTimeout(() => {
             alert(JSON.stringify(values, null, 2));
@@ -29,21 +35,20 @@ const App = () => {
         }}
       >
         <Form>
-          <label htmlFor="firstName">First Name</label>
-          <Field id="firstName" name="firstName" placeholder="John" />
-
-          <label htmlFor="lastName">Last Name</label>
-          <Field id="lastName" name="lastName" placeholder="Doe" />
-
-          <label htmlFor="email">Email</label>
           <Field
-            id="email"
-            name="email"
-            placeholder="john@acme.com"
-            type="email"
+            name="login"
+            render={({ field = "login" /* { name, value, onChange, onBlur } */ }) => (
+              <input {...field} type="text" placeholder="Login" />
+            )}
+          />
+          <Field
+            name="password"
+            render={({ field = "password" /* { name, value, onChange, onBlur } */ }) => (
+              <input {...field} type="password" placeholder="Pass" />
+            )}
           />
 
-          <button type="submit">Submit</button>
+          <button type="submit">Войти</button>
         </Form>
       </Formik>
     </div>
