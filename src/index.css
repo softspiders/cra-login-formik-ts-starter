@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button{
+  position: center;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input[type=text], [type=password] {
+  flex-direction: column-reverse;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  background: #ffffff !important;
+  outline: none;
+  height: 36px;
+  width: 200px;
+  color: #cccccc;
+  font-size: 11px;
+  font-family: Tahoma;
+}
+
+input[type=text]:focus , [type=password]:focus {
+  color: #000000;
+  border: 1px solid #000000
+}
+
+.loginForm{
+  position: relative;
+  text-align: center;
 }
