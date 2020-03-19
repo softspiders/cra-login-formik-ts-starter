@@ -1,8 +1,8 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# formik-ts-starter
+# cra-login-formik-ts-starter 
 
-Starter for Forms with [Formik](https://github.com/jaredpalmer/formik) on TypeScript which support Internet Explorer 11.
+Starter with authorization for Forms with [Formik](https://github.com/jaredpalmer/formik) on TypeScript which support Internet Explorer 11.
 
 ## Feature tags
 
@@ -19,14 +19,16 @@ Starter for Forms with [Formik](https://github.com/jaredpalmer/formik) on TypeSc
 
 - [Node.js](https://nodejs.org/en/download/package-manager/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Formik](https://github.com/jaredpalmer/formik/)
 
 ---
 
-## Available Scripts
+## Run application 
+Steps to launch the application
+1. ### `npm install`
+2. ### `npm start:server`
+3. ### `npm start:app`
 
-In the project directory, you can run:
-
-### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser:
@@ -40,6 +42,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser:
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+##  Application scripts
+
+### `npm start:server`
+Starts the server for authorization testing
+
+### `npm start:server`
+Launches the application itself, which is deployed to [http://localhost:3000] (http://localhost:3000)
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
@@ -54,13 +63,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Author
 
-[Dmitrii](https://github.com/dmitrii92)
+[Kazeev](https://github.com/Kazeev)
 
 ---
 
 ## Inspired by
 
-Formik [basic-typescript example](https://github.com/jaredpalmer/formik/tree/master/examples/basic-typescript).
+[formik-ts-starter](https://github.com/softspiders/formik-ts-starter) 
+and [basicauth-rest-client-jest-starter](https://github.com/softspiders/basicauth-rest-client-jest-starter).
 
 ---
 
