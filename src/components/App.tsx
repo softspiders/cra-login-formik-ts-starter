@@ -1,12 +1,10 @@
 import React from "react";
-import {LoginForm} from "./authorization/LoginForm";
+import {SignIn} from "./authorization/SignIn";
 
 
 const App = () => {
   return (
-    <div>
-      <LoginForm />
-    </div>
+      <SignIn />
   );
 };
 

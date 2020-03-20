@@ -13,7 +13,7 @@ app.listen(port, (err) => {
 })
 
 app.get("/api", (req, res) => {
-	if (req.headers.authorization !== 'admin:admin') {
+	if (req.headers.authorization !== "admin:admin") {
 	  return res.status(401).send();
 	} else {
 		res.send({method: "GET",

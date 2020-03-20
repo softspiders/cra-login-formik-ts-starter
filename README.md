@@ -1,17 +1,23 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# cra-login-formik-ts-starter 
-
-Starter with authorization for Forms with [Formik](https://github.com/jaredpalmer/formik) on TypeScript which support Internet Explorer 11.
+#cra-login-formik-ts-starter
+General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/master/jfront/images/jfront-plan.svg?sanitize=true)
 
 ## Feature tags
-
+- basic-auth
+- client
 - create-react-app
-- ie11
-- starter
-- template
-- typescript
+- express
 - formik
+- ie11
+- integration-test
+- login
+- jest
+- rest
+- starter
+- styled-components
+- typescript
+- ui-test
 
 ---
 
@@ -26,8 +32,8 @@ Starter with authorization for Forms with [Formik](https://github.com/jaredpalme
 ## Run application 
 Steps to launch the application
 1. ### `npm install`
-2. ### `npm start:server`
-3. ### `npm start:app`
+2. ### `npm run start:server`
+3. ### `npm run start:app`
 
 
 Runs the app in the development mode.<br />
@@ -44,10 +50,10 @@ You will also see any lint errors in the console.
 
 ##  Application scripts
 
-### `npm start:server`
+### `npm run start:server`
 Starts the server for authorization testing
 
-### `npm start:server`
+### `npm run start:app`
 Launches the application itself, which is deployed to [http://localhost:3000] (http://localhost:3000)
 ### `npm run build`
 
@@ -58,28 +64,20 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ---
-
 ## Author
-
 [Kazeev](https://github.com/Kazeev)
 
----
 
+---
 ## Inspired by
-
 [formik-ts-starter](https://github.com/softspiders/formik-ts-starter) 
-and [basicauth-rest-client-jest-starter](https://github.com/softspiders/basicauth-rest-client-jest-starter).
 
 ---
-
-## Learn More
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
+## Learn More 
+To learn React,
+check out the [React documentation](https://reactjs.org/).
 ---
-
 ## License
-
 Licensed under the [MIT license](./LICENSE).
+
