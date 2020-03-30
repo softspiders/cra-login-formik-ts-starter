@@ -7,6 +7,30 @@ export interface Account {
   password: string;
 }
 
+export const authorized = async (login:string, password: string): Promise<boolean> => {
+  let headers = new Headers();
+  headers.append("authorization", login + ":" + password);
+  headers.append("Pragma", "no-cache");
+  headers.append("Cache-Control", " no-cache, no-store, must-revalidate");
+
+  let flag = Boolean(false);
+  await fetch(
+    'http://localhost:3001/api',
+    {
+      method: 'GET',
+      redirect: 'follow',
+      headers: headers
+    })
+    .then((response: Response):void =>{
+      if (response.ok){
+         flag = true;
+      }else
+         flag = false;
+    })
+    .catch((error: string) => console.log('error', error));
+  return flag;
+};
+
 export const SignIn = () =>{
     return(
     <div>
@@ -21,31 +45,16 @@ export const SignIn = () =>{
           {setSubmitting}: FormikHelpers<Account>
         ) => {
 
-          let headers = new Headers();
-          headers.append("authorization", values.login + ":" + values.password);
-          headers.append("Pragma", "no-cache");
-          headers.append("Cache-Control", " no-cache, no-store, must-revalidate");
-
-          await fetch(
-            'http://localhost:3001/api',
-            {
-              method: 'GET',
-              redirect: 'follow',
-              headers: headers
-            })
-            .then((response: Response) =>{
-              if (response.ok){
-                alert("Login successful");
-                values.login = ""; values.password ="";
-              }else
-                alert("Invalid username or password, try again");
-                values.password ="";
-            })
-            .catch((error: string) => console.log('error', error));
-
+          const query:boolean = await authorized(values.login, values.password);
+          if (query){
+            alert("Login successful");
+            values.login = ""; values.password ="";
+          }else{
+            alert("Invalid username or password, try again");
+            values.password ="";
+          }
           setSubmitting(false);
         }}
-
       >
         <Form className={"SignIn"}>
           <h1>SignIn</h1>

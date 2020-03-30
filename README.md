@@ -29,12 +29,18 @@ General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/m
 
 ---
 
+
+## Run test application 
+1. ### `npm install`
+2. ### `npm run start:server`
+3. ### `npm run test`
+4. ### `press a `
+
 ## Run application 
 Steps to launch the application
 1. ### `npm install`
 2. ### `npm run start:server`
 3. ### `npm run start:app`
-
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser:
