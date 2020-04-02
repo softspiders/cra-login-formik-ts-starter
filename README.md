@@ -10,14 +10,12 @@ General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/m
 - express
 - formik
 - ie11
-- integration-test
+- unit-test
 - login
 - jest
 - rest
 - starter
-- styled-components
 - typescript
-- ui-test
 
 ---
 

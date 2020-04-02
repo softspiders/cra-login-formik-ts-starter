@@ -7,11 +7,10 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
+    "@types/react-dom": "^16.9.5",
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.29",
     "@types/react": "^16.9.23",
-    "@types/react-dom": "^16.9.5",
     "cor": "0.0.0",
     "cors": "^2.8.5",
     "formik": "2.1.4",
@@ -44,9 +43,5 @@
       "last 1 safari version",
       "IE 11"
     ]
-  },
-  "devDependencies": {
-    "@types/styled-components": "^5.0.1",
-    "jest-styled-components": "^7.0.0"
   }
 }

@@ -77,4 +77,4 @@ export const SignIn = () =>{
       </Formik>
     </div>
   );
-}
+};
