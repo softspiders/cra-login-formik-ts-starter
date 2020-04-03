@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-#cra-login-formik-ts-starter
+# cra-login-formik-ts-starter
 General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/master/jfront/images/jfront-plan.svg?sanitize=true)
 
 ## Feature tags
@@ -72,15 +72,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Author
 [Kazeev](https://github.com/Kazeev)
 
-
 ---
 ## Inspired by
 [formik-ts-starter](https://github.com/softspiders/formik-ts-starter) 
 
----
-## Learn More 
-To learn React,
-check out the [React documentation](https://reactjs.org/).
 ---
 ## License
 Licensed under the [MIT license](./LICENSE).
