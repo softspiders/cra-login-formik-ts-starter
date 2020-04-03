@@ -1,7 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
 # cra-login-formik-ts-starter
-General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/master/jfront/images/jfront-plan.svg?sanitize=true)
 
 ## Feature tags
 - basic-auth
