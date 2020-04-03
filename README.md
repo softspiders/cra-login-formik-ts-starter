@@ -69,10 +69,6 @@ Launches the application itself, which is deployed to [http://localhost:3000] (h
 [Kazeev](https://github.com/Kazeev)
 
 ---
-## Inspired by
-[formik-ts-starter](https://github.com/softspiders/formik-ts-starter) 
-
----
 ## License
 Licensed under the [MIT license](./LICENSE).
 
