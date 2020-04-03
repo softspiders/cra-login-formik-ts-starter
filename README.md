@@ -10,8 +10,8 @@
 - formik
 - ie11
 - integration-test
-- login
 - jest
+- login
 - rest
 - starter
 - typescript
