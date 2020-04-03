@@ -59,7 +59,6 @@ Starts the server for authorization testing
 
 ### `npm run start:app`
 Launches the application itself, which is deployed to [http://localhost:3000] (http://localhost:3000)
-### `npm run build`
 
 ---
 ## Author
