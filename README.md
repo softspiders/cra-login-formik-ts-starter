@@ -1,5 +1,7 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
+Login-starter for forms on Formik on TypeScript that supports IE11
+
 # cra-login-formik-ts-starter
 
 ## Feature tags
