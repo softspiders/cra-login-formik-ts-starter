@@ -62,7 +62,7 @@ You will also see any lint errors in the console.
 Starts the server for authorization testing
 
 ### `npm run start:app`
-Launches the application itself, which is deployed to [http://localhost:3000] (http://localhost:3000)
+Launches the application itself, which is deployed to [http://localhost:3000](http://localhost:3000)
 
 ---
 ## Author
