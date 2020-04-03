@@ -18,6 +18,11 @@ General development scheme [here](https://raw.githubusercontent.com/Jepria/doc/m
 - typescript
 
 ---
+## Feature Tags
+
+[**- basic-auth, client, express, integration-test, login, jest, rest**](https://github.com/softspiders/formik-ts-starter)
+
+---
 
 ## Requirements
 
