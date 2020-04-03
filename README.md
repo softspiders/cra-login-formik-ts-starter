@@ -1,6 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-# React-login-starter with authentication on basic-auth for forms on Formik on TypeScript that supports IE11
+# React-login-starter with authentication on basic-auth with forms on Formik on TypeScript that supports IE11
 
 ## Feature tags
 - basic-auth
