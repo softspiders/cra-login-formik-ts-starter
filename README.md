@@ -1,8 +1,6 @@
 [SOFTSPIDERS](https://github.com/softspiders/softspiders)
 
-Login-starter for forms on Formik on TypeScript that supports IE11
-
-# cra-login-formik-ts-starter
+# React-login-starter with authentication on basic-auth for forms on Formik on TypeScript that supports IE11
 
 ## Feature tags
 - basic-auth
