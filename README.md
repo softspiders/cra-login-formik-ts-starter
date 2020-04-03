@@ -65,7 +65,7 @@ Starts the server for authorization testing
 Launches the application itself, which is deployed to [http://localhost:3000](http://localhost:3000)
 
 ---
-## Author
+## Original author
 [Kazeev](https://github.com/Kazeev)
 
 ---
